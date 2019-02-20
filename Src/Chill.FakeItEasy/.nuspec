@@ -10,14 +10,14 @@
     <iconUrl>https://raw.githubusercontent.com/ChillBDD/Chill/master/Docs/Assets/Images/chillIcon.png</iconUrl>
     <projectUrl>https://github.com/ChillBdd/Chill</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Adds an IAutoMother for Chill that uses FakeItEasy to procedure objects through The(). </description>
+    <description>Adds an IObjectMother for Chill that uses FakeItEasy to produce objects through The(). </description>
     <releaseNotes>
-    See https://github.com/ChillBDD/Chill/releases/tag/2.2.0    
+    See https://github.com/ChillBDD/Chill.FakeItEasy/releases/latest    
     </releaseNotes>
     <copyright>Copyright 2019</copyright>
-    <tags>BDD TDD AutoMocking FakeItEasy</tags>
+    <tags>BDD TDD AutoMocking Chill FakeItEasy</tags>
     <dependencies>
-        <dependency id="Chill" version="[3.9,5.0)"/>
+        <dependency id="Chill" version="[4.0-*,5.0)"/>
         <dependency id="FakeItEasy" version="[4.0,6.0)"/>
     </dependencies>
     <contentFiles>
