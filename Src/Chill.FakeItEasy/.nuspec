@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Chill.FakeItEasy.Sources</id>
+    <version>2.2.0-beta0001</version>
+    <title>Chill BDD Unit-Testing</title>
+    <authors>Erwin van der Valk, Dennis Doomen</authors>
+    <owners>Dennis Doomen</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/ChillBDD/Chill/master/Docs/Assets/Images/chillIcon.png</iconUrl>
+    <projectUrl>https://github.com/ChillBdd/Chill</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds an IAutoMother for Chill that uses FakeItEasy to procedure objects through The(). </description>
+    <releaseNotes>
+    See https://github.com/ChillBDD/Chill/releases/tag/2.2.0    
+    </releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>BDD TDD AutoMocking FakeItEasy</tags>
+    <dependencies>
+        <dependency id="Chill" version="[3.9,5.0)"/>
+        <dependency id="FakeItEasy" version="[4.0,6.0)"/>
+    </dependencies>
+    <contentFiles>
+      <files include="FakeItEasyObjectMother.cs"/>
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="FakeItEasyObjectMother.cs" target="contentFiles/cs/netstandard1.6" />
+    <file src="FakeItEasyObjectMother.cs" target="contentFiles/cs/netstandard2.0" />
+    <file src="FakeItEasyObjectMother.cs" target="contentFiles/cs/net45" />
+    <file src="FakeItEasyObjectMother.cs" target="content/App_Packages/Chill.FakeItEasy.Sources/" />
+  </files>
+</package>
