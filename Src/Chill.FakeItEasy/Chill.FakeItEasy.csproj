@@ -5,12 +5,9 @@
         <LangVersion>6</LangVersion>
     </PropertyGroup>
 
-    <ItemGroup >
-      <PackageReference Include="FakeItEasy" Version="5.0.0" />
-    </ItemGroup>
-
     <ItemGroup>
-      <ProjectReference Include="..\Chill\Chill.csproj" />
+      <PackageReference Include="Chill" Version="4.0.0-beta0001" />
+      <PackageReference Include="FakeItEasy" Version="5.0.0" />
     </ItemGroup>
 
 </Project>
